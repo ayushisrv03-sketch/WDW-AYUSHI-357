@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <favicon></favicon>
     <title>The Novel Nest</title>
+    <style>
+        .shadow-btn 
+        {
+           
+            color: black;
+            border: none;
+            cursor: pointer;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        shadow-btn:hover 
+        {
+            box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.4);
+        }
+    </style>
 </head>
 <body>
     <table border="2px", height="300px", width="600px", align="center">
@@ -29,6 +43,8 @@
                     Password: <input type="password" required>
                     <br><br>
                 </form>
+                <button class="shadow-btn">SUBMIT</button>
+                <button class="shadow-btn">RESET</button>
             </td>
         </tr>
         <tr align="center">
