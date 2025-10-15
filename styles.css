@@ -1,0 +1,35 @@
+.form-card{
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background:white;
+    box-shadow: 5px 5px 5px pink;
+}
+.btn{
+    padding: 8px 16px;
+    background: lightpink;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px pink;
+}
+.btn.secondary {
+     background: gray;
+ }
+.actions{
+    text-align: center;
+    margin-top: 16px;
+    color: white;
+}
+body{
+ font-family: Arial, sans-serif;
+ background: white;
+ }
+ .btn:hover {
+  background-color: salmon;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(64, 9, 9, 0.2);
+}
